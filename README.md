@@ -16,7 +16,7 @@ TL;DR: Got frustrated about the state of connecting to pdanet in Linux, decided 
 - iproute2
 
 ## Usage
-Put this script and the tun2socks binary in ~/pdanet. I'll improve the script when I have time. For now just do that.
+Put this script and the tun2socks binary in ~/pdanet. Run the script from your home directory. I'll improve the script when I have time. For now just do that.
 You must run this script as root since iptables and tun2socks needs those root permissions to setup the routing in your system.
 
 ## How it works

@@ -11,4 +11,4 @@ ip route add default via 192.168.49.1 dev wlp3s0b1 metric 10
 sysctl -w net.ipv4.conf.all.rp_filter=0
 
 #Run tun2socks
-/home/positive/pdanet/tun2socks-linux-amd64 -device tun://tun0 -interface wlp3s0b1 -proxy socks5://192.168.49.1:8000
+pdanet/tun2socks-linux-amd64 -device tun://tun0 -interface wlp3s0b1 -proxy socks5://192.168.49.1:8000
