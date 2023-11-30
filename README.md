@@ -16,8 +16,10 @@ TL;DR: Got frustrated about the state of connecting to pdanet in Linux, decided 
 - iproute2
 
 ## Usage
-Put this script and the tun2socks binary in ~/pdanet. Run the script from your home directory. I'll improve the script when I have time. For now just do that.
-You must run this script as root since iptables and tun2socks needs those root permissions to setup the routing in your system.
+First things first, you need to have tun2socks installed in your PATH. If you're on Arch, then it's probably on the AUR and you could just install it. But if you're on Void, I made a [template](https://github.com/Positive205/void-more-packages/blob/main/templates/tun2socks/template) that you can use to build and install tun2socks on your system.
+
+You must run this script as root since iptables and tun2socks needs those root permissions to set all the routes up in your system.
+
 ## Issues
 As of right now, I haven't encountered any issues (despite some messages in stdout) so if you encounter any issues, feel free to report an issue. Just remember to give every bit of important details (what website did you visit, error messages etc) when making an issue report so that I can diagnose and fix the issue.
 
