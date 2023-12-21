@@ -2,7 +2,7 @@
 #Tunnel interface setup
 ip tuntap add mode tun dev tun0
 ip add add 192.168.1.1/24 dev tun0
-ip l set dev tun0 up
+ip link set dev tun0 up
 ip route del default
 ip route add default via 192.168.1.1 dev tun0 metric 1
 ip route add default via 192.168.49.1 dev wlp3s0b1 metric 10
