@@ -20,10 +20,15 @@ tested on x86_64 Arch Linux with a paid version of pdanet+ running on Android 14
 
 # How to use
 
+Simply run script as superuser:
 
+`git clone https://github.com/1ndev-ui/pdanet-linux/
+sudo ./pdanet-linux/pdanet.sh`
 
 # To-do
 
-* auto reconnect network interface in case of disconnect
-* change logo
-* add some flags
+* Implement non-interactive state
+* Add some flags
+* Auto reconnect network interface in case of disconnect
+* Change logo
+
