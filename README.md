@@ -1,6 +1,8 @@
-!! Achieves 200mbps down && 15mbps up on 5g networks !!
-
 ![Screenshot_20250107_161030](https://github.com/user-attachments/assets/c8d871d5-9342-4446-b405-a347c527a15c)
+
+# Features
+
+!! Achieves 200mbps down && 15mbps up on 5g networks !!
 
 + Detects CPU architecture
 + Incorporated superuser root check
@@ -14,6 +16,14 @@
 
 ++ various other additions
 
-we can change logo if need be and maybe add some flags...
-
 tested on x86_64 Arch Linux with a paid version of pdanet+ running on Android 14.
+
+# How to use
+
+
+
+# To-do
+
+* auto reconnect network interface in case of disconnect
+* change logo
+* add some flags
