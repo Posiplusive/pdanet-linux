@@ -27,6 +27,7 @@ Simply run script as superuser:
 # To-do
 
 * Choose specific tun2socks binary fork
+* Detect other package managers (dnf,nix,etc)
 * Implement non-interactive state
 * Add some flags
 * Auto reconnect network interface in case of disconnect
